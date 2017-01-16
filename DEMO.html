@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Set CSS</title>
+</head>
+
+<body>
+    <h1 id="title">This is a title.</h1>
+    <p class="para">I am a paragraph.</p>
+    <p class="para">I am a paragraph.</p>
+    <p class="para bot-para">I am a paragraph.</p>
+
+    <script src="main.js"></script>
+    <script>
+        Setcss.config('#title', {
+            fontSize: 28,
+            color: 'green'
+        });
+
+        Setcss.config('.para', {
+            fontSize: 22
+        });
+
+        Setcss.config('.bot-para', {
+            fontSize: 22,
+            color: 'green'
+        });
+    </script>
+</body>
+
+</html>
